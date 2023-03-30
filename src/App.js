@@ -42,7 +42,7 @@ function App(params) {
            <div className="container w-50 my-5 py-5 quote-body">
            <p className="fw-semibold">{advice.id}</p>
             <p>{advice.advice}</p>
-            <button className="btn-secondary mb-4 quote-btn" onClick={generateNewAdvice }>New Quote</button>
+            <button className="btn-secondary mb-4 quote-btn" onClick={generateNewAdvice }>New Advice</button>
 
             <CopyToClipboard text={advice.advice} onCopy={onCopyText}>
             <div className="copy-area">
