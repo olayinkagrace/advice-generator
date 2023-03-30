@@ -1,0 +1,35 @@
+.main {
+  background: linear-gradient(purple, pink);
+    
+}
+.quote-btn{
+    background-color: gray;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.quote-btn:active {
+    transform: translateY(4px);
+}
+.quote-body {
+    background-color:rgb(212, 198, 198)
+}
+.span-copy {
+    font-size: 12px;
+}
+@media (max-width: 300px) {
+    .quote-body {
+        font-size: 15px;
+    }
+}
+@media (max-width: 180px) {
+    .quote-body {
+        font-size: 12px;
+    }
+}
+@media (max-width: 180px) {
+    .span-copy {
+        font-size: 10px;
+    }
+}
